@@ -1,0 +1,15 @@
+@import 'vars';
+@import 'basics';
+@import 'mixins';
+
+//nav
+nav.bg-body-tertiary{
+    background: transparent !important;
+}
+//mainHeader
+.mainHeader{
+    background: linear-gradient(rgba($black, .4), rgba($black, .4)), url(img/home-hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
