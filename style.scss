@@ -12,4 +12,32 @@ nav.bg-body-tertiary{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    span{
+        color: $accents;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+//intro
+.intro{
+    background: $secondary;
+    padding-top: 150px;
+    .wrapper{
+        flex: 0 0 30%;
+        background: $lightGray;
+        padding: 50px;
+        h3{
+            font-size: 40px;
+        }
+        .icon{
+            width: 145px;
+            height: 145px;
+            background: $primary;
+            margin-top: -130px;
+            img{
+                width: 50%;
+            }
+        }
+    }
 }

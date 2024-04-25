@@ -9,6 +9,26 @@ h1 {
   font-size: 79px;
 }
 
+.btn-success {
+  background: #00c9b5;
+  border-radius: 0;
+  border: none;
+}
+.btn-success i {
+  color: #8a60fc;
+}
+
+.btn-success:hover {
+  background: #140339;
+}
+.btn-success:hover i {
+  color: #00c9b5;
+}
+
+.py {
+  padding: 100px 0;
+}
+
 nav.bg-body-tertiary {
   background: transparent !important;
 }
@@ -18,4 +38,32 @@ nav.bg-body-tertiary {
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+.mainHeader span {
+  color: #00c9b5;
+}
+.mainHeader p {
+  font-size: 20px;
+}
+
+.intro {
+  background: #140339;
+  padding-top: 150px;
+}
+.intro .wrapper {
+  flex: 0 0 30%;
+  background: #eef1ff;
+  padding: 50px;
+}
+.intro .wrapper h3 {
+  font-size: 40px;
+}
+.intro .wrapper .icon {
+  width: 145px;
+  height: 145px;
+  background: #8a60fc;
+  margin-top: -130px;
+}
+.intro .wrapper .icon img {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */

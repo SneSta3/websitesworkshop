@@ -9,3 +9,22 @@ h1{
     line-height: 93px;
     font-size: 79px;
 }
+.btn-success{
+    background: $accents;
+    border-radius: 0;
+    border: none;
+    i{
+        color: $primary;
+    }
+}
+.btn-success:hover{
+    background: $secondary;
+    i{
+        color: $accents;
+    }
+}
+
+.py{
+    padding: 100px 0;
+}
+
