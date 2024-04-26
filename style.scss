@@ -2,10 +2,7 @@
 @import 'basics';
 @import 'mixins';
 
-//nav
-nav.bg-body-tertiary{
-    background: transparent !important;
-}
+
 //mainHeader
 .mainHeader{
     background: linear-gradient(rgba($black, .4), rgba($black, .4)), url(img/home-hero.png);
@@ -37,6 +34,102 @@ nav.bg-body-tertiary{
             margin-top: -130px;
             img{
                 width: 50%;
+            }
+        }
+    }
+}
+//kursevi
+.kursevi{
+    background: $lightGray;
+    .uvod{
+        @include flex($align: flex-start);
+        border-left: 20px solid $primary;
+        padding-left: 20px;
+        h2{
+            flex: 0 0 40%;
+        }
+        p{
+            flex: 0 0 60%;
+        }
+    }
+    .list-kurseva{
+        color: white;
+        @include flex;
+        .kurs{
+            flex: 0 0 30%;
+            margin-bottom: 60px;
+            img{
+                width: 100%;
+                display: block;
+            }
+            .tekst{
+                background: $secondary;
+                border-left: 10px solid $accents; 
+                padding: 50px 30px;
+                position: relative;
+                h3{
+                    margin-bottom: 60px;
+                }
+                a{
+                    position: absolute;
+                    bottom: 15px;
+                    right: 15px;
+                    color: $accents;
+                    font-size: 2rem;
+                }
+                span{
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                    background: $lightGray;
+                    border-radius: 100%;
+                    color: $primary;
+                    text-align: center;
+                    width: 75px;
+                    height: 75px;
+                    line-height: 20px;
+                    padding-top: 10px;
+                    b{
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+//o nama
+.onama{
+    background: $secondary;
+    color: $white;
+    h2{
+        border-left: 20px solid $accents;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        margin-bottom: 80px;
+    }
+}
+//tehnologije
+.tehnologije{
+    background: $lightGray;
+    color: $black;
+    @extend .onama;
+    .col-md-5{
+        font-size: 26px;
+    }
+    .col-md-7{
+        background: $secondary;
+        padding: 60px;
+        h3{
+            font-size: 40px;
+            padding-bottom: 70px;
+        }
+        ul{
+            line-height: 2;
+            a{
+                font-size: 30px;
+                color: $accents;
+                text-decoration: none;
             }
         }
     }
