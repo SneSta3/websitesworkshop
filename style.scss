@@ -134,3 +134,63 @@
         }
     }
 }
+//blog
+.blog{
+    background: $secondary;
+    .row:first-child{
+        h2{
+            flex: 0 0 35%;
+        }
+        p{
+            flex: 0 0 60%;
+        }
+    }
+    .row:last-child{
+            padding: 100px;
+            .text{ 
+                background: $white;
+                padding: 30px;
+                h3{
+                color:$accents;
+                }
+                .btn{
+                 width: 50%;
+                 display: block;
+                 margin: auto;
+                }
+
+            }
+        } 
+  }
+
+//portofolio
+.portofolio{
+    .d-flex{
+        h2{
+            border-left: 20px solid $accents;
+            padding-left: 20px;
+            flex: 0 0 25%;
+            padding-bottom: 20px;
+        }
+    }
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+    img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+}
+.swiper-pagination{
+    position: relative;
+    top: 70px;
+}
+
+//footer
+footer{
+    background: $secondary
+}

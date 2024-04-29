@@ -195,4 +195,57 @@ h2 {
   font-size: 30px;
   color: #00c9b5;
   text-decoration: none;
+}
+
+.blog {
+  background: #140339;
+}
+.blog .row:first-child h2 {
+  flex: 0 0 35%;
+}
+.blog .row:first-child p {
+  flex: 0 0 60%;
+}
+.blog .row:last-child {
+  padding: 100px;
+}
+.blog .row:last-child .text {
+  background: white;
+  padding: 30px;
+}
+.blog .row:last-child .text h3 {
+  color: #00c9b5;
+}
+.blog .row:last-child .text .btn {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.portofolio .d-flex h2 {
+  border-left: 20px solid #00c9b5;
+  padding-left: 20px;
+  flex: 0 0 25%;
+  padding-bottom: 20px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination {
+  position: relative;
+  top: 70px;
+}
+
+footer {
+  background: #140339;
 }/*# sourceMappingURL=style.css.map */
