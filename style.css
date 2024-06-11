@@ -22,13 +22,6 @@ h1 {
   color: #8a60fc;
 }
 
-.btn-success:hover {
-  background: #140339;
-}
-.btn-success:hover i {
-  color: #00c9b5;
-}
-
 .py {
   padding: 100px 0;
 }
@@ -228,7 +221,6 @@ h2 {
   flex: 0 0 25%;
   padding-bottom: 20px;
 }
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -240,7 +232,6 @@ h2 {
   width: 100%;
   height: 100%;
 }
-
 .swiper-pagination {
   position: relative;
   top: 70px;
@@ -248,4 +239,7 @@ h2 {
 
 footer {
   background: #140339;
-}/*# sourceMappingURL=style.css.map */
+}
+footer p{
+  padding-top: 30px;
+}
